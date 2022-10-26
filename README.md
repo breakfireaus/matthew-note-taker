@@ -1,8 +1,8 @@
-# Title
+# Mote-Taker
 
 ## Description
 
-
+This web application was designed for users who want to write notes and save them, it uses express.js, node, HTML and CSS. This project had a very steep learning curve for me where I had to learn Express and Heroku which was a little difficult but I got there in the end.
 
 ## Table of Contents
 
@@ -13,11 +13,33 @@
 
 ## Installation
 
-
+This web app has been uploaded to the following website: https://matthew-note-taker.herokuapp.com/
 
 ## Usage
 - Main Page
-![alt text](public/assets/images/)
+![Main page screenshot](public/assets/images/screenshot-1.jpg)
+
+- Note taking page
+![note taking page screenshot](public/assets/images/screenshot-2.jpg)
+
+- Note taking fields
+![Note taking fields screenshot](public/assets/images/screenshot-3.jpg)
+
+- Sample text inputed
+![Sample text inputed screenshot](public/assets/images/screenshot-4.jpg)
+
+- Saved Samples screen of notes
+![Saved Samples screenshot](public/assets/images/screenshot-5.jpg)
+
+- Save button
+![Save button screenshot](public/assets/images/screenshot-6.jpg)
+
+-Add note button
+![Save button screenshot](public/assets/images/screenshot-7.jpg)
+
+-Delete note button
+![Save button screenshot](public/assets/images/screenshot-8.jpg)
+
 
 ## Credits
 
@@ -25,6 +47,8 @@
 - Tutor for getting me on track
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
 - https://2ality.com/2017/05/util-promisify.html
+- https://www.w3schools.com/nodejs/
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs
 
 ## License
 
