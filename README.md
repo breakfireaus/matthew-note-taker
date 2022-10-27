@@ -1,4 +1,4 @@
-# Mote-Taker
+# Note-Taker
 
 ## Description
 
@@ -44,7 +44,7 @@ This web app has been uploaded to the following website: https://matthew-note-ta
 ## Credits
 
 - Ask BCS team @ Monash university Bootcamp
-- Tutor for getting me on track
+- Tutor for keeping me on track
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
 - https://2ality.com/2017/05/util-promisify.html
 - https://www.w3schools.com/nodejs/

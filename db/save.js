@@ -15,7 +15,7 @@ class Store {
     return readFileAsync('db/db.json', 'utf8');
   }
 
-  // write (note)which is turned into a object into db.json. File also convert into string
+  // write the note which is turned into a object into db.json. File also convert into string
   write(note) {
     return writeFileAsync('db/db.json', JSON.stringify(note));
   }
@@ -29,7 +29,6 @@ class Store {
       } catch (err) {
         parsedNotes = [];
       }
-      // prints note
       return parsedNotes;
     });
   }
