@@ -1,21 +1,21 @@
 const util = require('util');
 const fs = require('fs');
 
-//use node.js util function to promisify read and write with POSTs, Gets and DELETE
+//use node.js util function to promisify, converts the callbacks into promises. read and write with POSTs, Gets and DELETE
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 
-//creating a constructor class
+//constructor class
 class Store {
   constructor(lastId) {
     this.lastId = 0;
   }
-  //method to interpret object data in the db.json
+  //method that will interpret object data in the db.json
   read() {
     return readFileAsync('db/db.json', 'utf8');
   }
 
-  // write object data(note) into db.json file also convert into string
+  // write (note)which is turned into a object into db.json. File also convert into string
   write(note) {
     return writeFileAsync('db/db.json', JSON.stringify(note));
   }
@@ -55,4 +55,5 @@ class Store {
   }
 }
 
+// export
 module.exports = new Store();
